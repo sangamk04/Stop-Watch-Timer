@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ecf0f3;
+
+}
+
+.container {
+    position: relative;
+    width: 550px;
+    height: 550px;
+    text-align: center;
+    border-radius: 50%;
+    background-color: #2c8eda;
+    box-shadow:   -12px -12px 30px 5px rgba(133, 80, 80, 0.9),
+    12px 12px 30px 5px rgba(51, 69, 102, 0.2),
+    inset -12px -12px 30px 5px rgba(255, 255, 255, 0.9),
+    inset 12px 12px 30px 5px rgba(50, 58, 73, 0.2);
+}
+
+.container2 {
+    background-color: #ecf0f3;
+    border-radius: 50%;
+    box-shadow:-12px -12px 30px 5px rgba(255, 255, 255, 0.9),
+    12px 12px 30px 5px rgba(50, 58, 73, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 0 auto;
+    height: 450px;
+    width: 450px;
+    transform: translate(-50%, -50%);
+  }
+
+.container h3 {
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-top: 90px;
+    font-size: 28px;
+}
+
+.container p {
+    margin-top: 55px;
+    color: #000000;
+    font-size: 58px;
+}
+
+.container button {
+    cursor: pointer;
+    margin: 70px 5px 0;
+    width: 80px;
+    height: 38px;
+    font-weight: bold;
+    background: transparent;
+    color: #050505;
+    border: 1px solid #d2e4f1;
+    border-radius: 4px;
+    font-size: 20px;
+    /* border: 1px solid red; */
+    letter-spacing: 4px;
+    transition: all .4s;
+}
+
+.container button:hover {
+    background-color: #ecf0f3;
+    box-shadow: inset 12px 12px 24px #dfe7ec,
+    inset -12px -12px 24px #ffffff;
+    border: none;
+}
+.sam{
+    margin-top: 2rem;
+   font-size: 12px;
+}
